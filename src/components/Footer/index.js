@@ -3,6 +3,7 @@ import React from "react";
 import profile from "../../assets/images/Profile_icon.png";
 import vibes from "../../assets/images/Vibes_icon.png";
 import destinationData from "./destination";
+import "../../styles/footer.css";
 
 const Footer = () => {
   // const [dropoff, setDropoff] = React.useState("");
@@ -14,13 +15,15 @@ const Footer = () => {
   // })
 
   return (
-    <footer>
-      <div className="bottom-nav">
-        <div className="nav-container">
-          <img src={profile} alt="profileIcon" />
-          <div className="dropoff-location">{destinationData}</div>
-          <img src={vibes} alt="vibesIcon" />
-        </div>
+    <footer className="bottom-nav">
+      <div className="row flex-grow-1 nav-container">
+        <img
+          src={profile}
+          alt="profileIcon"
+          className="profile-icon flex-grow-1"
+        />
+        <span className="route-dropoff">{destinationData}</span>
+        <img src={vibes} alt="vibesIcon" className="vibesIcon" />
       </div>
     </footer>
   );

@@ -1,0 +1,16 @@
+@import "./variable.css";
+
+header {
+  background-color: var(--offwhite);
+  position: absolute;
+  width: 100%;
+}
+
+.logo {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  padding: 30px;
+  border: 10px;
+}

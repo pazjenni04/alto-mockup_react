@@ -5,9 +5,9 @@ import data from "../../assets/data/mission.json";
 const destinationData = data.map((data) => {
   return (
     <div className="navbar navbar-fixed-bottom" key={data.trip}>
-      <p>{data.trip.dropoff_location.name}</p>
+      <p className="dropoff-location">{data.trip.dropoff_location.name}</p>
       {/* need to reformat this time - converted in helper but need to apply */}
-      <p>ETA:{data.trip.estimated_arrival}</p>
+      <p className="eta">ETA: {data.trip.estimated_arrival}</p>
     </div>
   );
 });

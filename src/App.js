@@ -6,10 +6,10 @@ import {
 } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Driver from "./pages/driver/index";
-import Map from "./pages/Map";
-import Trip from "./pages/Trip-info";
-import Vehicle from "./pages/vehicle/index";
+import Driver from "./pages/Driver/index";
+import Map from "./pages/Map/index";
+import Trip from "./pages/Trip/index.js.js";
+import Vehicle from "./pages/Vehicle/index";
 
 function App() {
   return (
