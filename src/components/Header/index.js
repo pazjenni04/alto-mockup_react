@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/images/Alto_logo.png";
-import "../../styles/header.css";
+import "../styles/header.css";
 
 const Header = () => {
   return (

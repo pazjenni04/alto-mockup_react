@@ -5,9 +5,9 @@ import data from "../../assets/data/mission.json";
 const driverData = data.map((data) => {
   return (
     <div key={data.driver} className="container driver-info">
-      <h1 className="col driver-name-info">{data.driver.name}</h1>
+      <h2 className="driver-name">{data.driver.name}</h2>
       {/* need to reformat this time - converted in helper but need to apply */}
-      <p className="col driver-bio-info">{data.driver.bio}</p>
+      <p className="driver-bio">{data.driver.bio}</p>
     </div>
   );
 });

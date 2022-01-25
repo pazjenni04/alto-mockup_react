@@ -1,0 +1,46 @@
+/* OPTIMA Fonts*/
+@font-face {
+  font-family: "Optima";
+  src: url("../../assets/fonts/Linotype\ -\ OptimaLTStd.otf");
+}
+
+@font-face {
+  font-family: "Optima-bold";
+  src: url("../../assets/fonts/Linotype\ -\ OptimaLTStd-Bold.otf");
+}
+
+@font-face {
+  font-family: "Optima-black";
+  src: url("../../assets/fonts/Linotype\ -\ OptimaLTStd-Black.otf");
+}
+
+@font-face {
+  font-family: "Optima-demi";
+  src: url("../../assets/fonts/Linotype\ -\ OptimaLTStd-DemiBold.otf");
+}
+
+@font-face {
+  font-family: "Optima-extra";
+  src: url("../../assets/fonts/Linotype\ -\ OptimaLTStd-ExtraBlack.otf");
+}
+
+@font-face {
+  font-family: "Optima-medium";
+  src: url("../../assets/fonts/Linotype\ -\ OptimaLTStd-Medium.otf");
+}
+
+/* PxGrotesk */
+@font-face {
+  font-family: "PxGrotesk-bold";
+  src: url("../../assets/fonts/PxGrotesk-Bold.otf");
+}
+
+@font-face {
+  font-family: "PxGrotesk-Regular";
+  src: url("../../assets/fonts/PxGrotesk-Regular.otf");
+}
+
+@font-face {
+  font-family: "PxGrotesk-Light";
+  src: url("../../assets/fonts/PxGrotesk-Light.otf");
+}

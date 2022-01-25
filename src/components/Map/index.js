@@ -3,6 +3,7 @@ import React from "react";
 import map from "../../assets/images/Map_overview.png";
 import vibeData from "./vibe-info";
 import dropffInfo from "./dropoff-info";
+import "../styles/map.css";
 
 const Map = () => {
   // updates vibe for passanger
@@ -23,12 +24,18 @@ const Map = () => {
 
   return (
     <main>
-      <img src={map} alt="Map-overview" />
-      <h2>YOUR TRIP</h2>
-      <div>Estimated time of arrival at {dropffInfo} </div>
-      <h3>Current Vibe</h3>
+      <img
+        src={map}
+        alt="Map-overview"
+        className="img-fluid mx-auto d-block map"
+      />
+      <h1 className="map-title">Your Trip</h1>
+      <div className="eta-map">Estimated time of arrival at {dropffInfo} </div>
+      <h2>Current Vibe</h2>
       <div>{vibeData}</div>
-      <button onClick={(e) => newVibe}>CHANGE VEHICLE VIBE</button>
+      <button onClick={(e) => newVibe} className="vibe-btn">
+        Change Vehicle Vibe
+      </button>
     </main>
   );
 };
