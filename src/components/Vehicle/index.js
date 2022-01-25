@@ -13,7 +13,7 @@ const Vehicle = () => {
       />
       <h1 className="vehicle-title">Your Vehicle</h1>
       <div>{vehicleData}</div>
-      <button className="vehicle-btn">IDENTIFY VEHICLE</button>
+      <button className="vehicle-btn">Identify Vehicle</button>
     </main>
   );
 };

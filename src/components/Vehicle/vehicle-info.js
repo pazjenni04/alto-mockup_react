@@ -9,11 +9,12 @@ const vehicleData = data.map((data) => {
       <div className="row">
         <p className="col-6">
           <span className="vehicle-subs">Make / Model</span>{" "}
-          <div class="w-100"></div>
+          <div className="w-100"></div>
           <span className="vehicle-info">{data.vehicle.make}</span>
         </p>
         <p className="col-6">
-          <span className="vehicle-subs">Color</span> <div class="w-100"></div>
+          <span className="vehicle-subs">Color</span>{" "}
+          <div className="w-100"></div>
           <span className="vehicle-info">{data.vehicle.color}</span>
         </p>
       </div>

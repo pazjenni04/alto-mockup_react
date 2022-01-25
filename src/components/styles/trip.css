@@ -3,9 +3,9 @@
 /* trip-info section styling */
 
 .trip-container {
-  width: 100%;
+  width: 68%;
   position: relative;
-  align-items: baseline;
+  margin: auto;
 }
 
 .trip-title {
@@ -15,6 +15,25 @@
   align-items: baseline;
 }
 
-.trip-details {
+.trip-info {
   margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trip-sub {
+  font-family: "PxGrotesk-Regular";
+  color: var(--grey);
+  font-size: 15px;
+}
+
+.trip-details {
+  font-family: "PxGrotesk-Regular";
+  font-size: 15px;
+  color: var(--offblack);
+}
+
+.arrival {
+  font-family: "Optima-medium";
 }

@@ -15,14 +15,16 @@ const Footer = () => {
   // })
 
   return (
-    <div className="nav-container">
+    <div className="nav-container row clearfix text-align: center">
       <img
         src={profile}
         alt="profileIcon"
-        className="profile-icon float-left"
+        className="profile-icon col-1 float-start"
       />
-      <span className="route-dropoff float-left">{destinationData}</span>
-      <img src={vibes} alt="vibesIcon" className="float-left vibesIcon" />
+      <div className="col-6 align-items-end text-center">
+        <div className="route-dropoff text-center ">{destinationData}</div>
+      </div>
+      <img src={vibes} alt="vibesIcon" className=" vibesIcon col-1 float-end" />
     </div>
   );
 };

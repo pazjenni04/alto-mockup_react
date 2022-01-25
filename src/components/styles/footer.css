@@ -1,39 +1,40 @@
 @import "./variable.css";
 
-.profile-icon {
+/* .profile-icon {
   position: fixed;
   bottom: 10px;
   left: 250px;
   display: inline-block;
   z-index: 1;
   cursor: pointer;
-}
+} */
 
-.vibesIcon {
+/* .vibesIcon {
   position: fixed;
   bottom: 10px;
   display: inline-block;
   left: 1400px;
   z-index: 1;
   cursor: pointer;
-}
+} */
 
-.route-dropoff {
+/* .route-dropoff {
   bottom: 0;
   display: inline;
   position: fixed;
   left: 40%;
   max-width: 400px;
   z-index: 1;
-}
+  font-size: 15px;
+} */
 
-.dropoff-location {
+/* .dropoff-location {
   font-weight: 600;
   font-size: 17px;
   text-align: center;
   margin-bottom: 0;
   z-index: 1;
-}
+} */
 
 .eta {
   font-size: 15px;

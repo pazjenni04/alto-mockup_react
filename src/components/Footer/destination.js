@@ -6,9 +6,10 @@ import { reformatTime } from "../../helpers/utils";
 const destinationData = data.map((data) => {
   return (
     <div className="navbar navbar-fixed-bottom" key={data.trip}>
-      <p className="dropoff-location">{data.trip.dropoff_location.name}</p>
+      <div className="dropoff-location">{data.trip.dropoff_location.name}</div>
+      <div className="w-100"></div>
       {/* need to reformat this time - converted in helper but need to apply */}
-      <p className="eta"> ETA: {data.trip.estimated_arrival}</p>
+      <div className="eta"> ETA: {data.trip.estimated_arrival}</div>
     </div>
   );
 });
