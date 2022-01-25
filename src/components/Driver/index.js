@@ -15,6 +15,7 @@ const Driver = () => {
       <h1 className="driver-title">Your Driver</h1>
       <div className="driver-info">{driverData}</div>
       <button className="driver-btn">Contact Driver</button>
+      <hr></hr>
     </main>
   );
 };

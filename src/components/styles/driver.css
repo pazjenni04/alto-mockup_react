@@ -16,11 +16,12 @@
   background-color: var(--lightgrey);
   letter-spacing: 2px;
   margin-bottom: 80px;
+  font-family: "PxGrotesk-Regular";
 }
 
 .driver-title {
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 17px;
   font-family: "Optima-medium";
   color: var(--salmon);
 }
@@ -38,4 +39,5 @@
 .driver-bio {
   font-family: "PxGrotesk-Light";
   color: var(--brown);
+  font-size: 15px;
 }

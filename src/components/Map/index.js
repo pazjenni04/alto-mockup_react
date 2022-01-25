@@ -23,19 +23,21 @@ const Map = () => {
   // }
 
   return (
-    <main>
+    <main className="container">
       <img
         src={map}
         alt="Map-overview"
         className="img-fluid mx-auto d-block map"
       />
       <h1 className="map-title">Your Trip</h1>
-      <div className="eta-map">Estimated time of arrival at {dropffInfo} </div>
-      <h2>Current Vibe</h2>
-      <div>{vibeData}</div>
+      <div className="eta-map">{dropffInfo} </div>
+      <hr></hr>
+      <h2 className="vibe-title">Current Vibe</h2>
+      <div className="vibe">{vibeData}</div>
       <button onClick={(e) => newVibe} className="vibe-btn">
         Change Vehicle Vibe
       </button>
+      <hr></hr>
     </main>
   );
 };

@@ -1,25 +1,30 @@
 @import "./variable.css";
 
-main {
+/* map section styling */
+
+.container {
   width: 100%;
   position: relative;
 }
 
 .map {
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
 .map-title {
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 17px;
   font-family: "Optima-medium";
   color: var(--salmon);
   display: block;
+  align-items: baseline;
 }
 
 .eta-map {
   font-family: "PxGrotesk-Light";
   color: var(--brown);
+  font-size: 15px;
 }
 
 .vibe-btn {
@@ -27,9 +32,24 @@ main {
   height: 40px;
   text-transform: uppercase;
   cursor: pointer;
-  color: var(--salmon);
+  color: var(--offwhite);
   border: var(--salmon);
-  background-color: var(--lightgrey);
+  background-color: var(--salmon);
   letter-spacing: 2px;
   margin-bottom: 65px;
+  font-family: "PxGrotesk-Regular";
+}
+
+.arrival {
+  font-family: "PxGrotesk-Regular";
+  font-size: 80px;
+}
+
+.vibe-title {
+  font-size: 15px;
+  font-family: "PxGrotesk-Light";
+}
+
+.vibe {
+  font-family: "PxGrotesk-Regular";
 }
