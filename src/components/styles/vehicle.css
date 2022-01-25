@@ -1,0 +1,44 @@
+@import "./variable.css";
+
+/* vehicle section styling */
+
+.vehiclephoto {
+  margin-top: 80px;
+  margin-bottom: 25px;
+}
+
+.vehicle-title {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: "Optima-medium";
+  color: var(--salmon);
+  display: block;
+  align-items: baseline;
+}
+
+.vehicle-license {
+  font-family: "PxGrotesk-Light";
+  font-size: 80px;
+}
+
+.vehicle-btn {
+  width: 100%;
+  height: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: var(--salmon);
+  border: var(--salmon);
+  background-color: var(--lightgrey);
+  letter-spacing: 2px;
+  font-family: "PxGrotesk-Regular";
+  margin-bottom: 150px;
+}
+
+.vehicle-subs {
+  font-size: 15px;
+  font-family: "PxGrotesk-Light";
+}
+
+.vehicle-info {
+  font-family: "PxGrotesk-Regular";
+}

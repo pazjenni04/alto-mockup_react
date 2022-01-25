@@ -1,14 +1,19 @@
 import React from "react";
 import vehiclePhoto from "../../assets/images/Vehicle_photo.png";
 import vehicleData from "./vehicle-info";
+import "../styles/vehicle.css";
 
 const Vehicle = () => {
   return (
-    <main>
-      <img src={vehiclePhoto} alt="vehiclephoto" />
-      <h2>YOUR VEHICLE</h2>
+    <main className="container">
+      <img
+        src={vehiclePhoto}
+        alt="vehiclephoto"
+        className="img-fluid mx-auto d-block vehiclephoto"
+      />
+      <h1 className="vehicle-title">Your Vehicle</h1>
       <div>{vehicleData}</div>
-      <button>IDENTIFY VEHICLE</button>
+      <button className="vehicle-btn">IDENTIFY VEHICLE</button>
     </main>
   );
 };

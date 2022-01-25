@@ -6,12 +6,14 @@ import Vehicle from "../components/Vehicle/index.js";
 
 const Main = () => {
   return (
-    <main>
-      {/* <Trip /> */}
-      <Driver />
-      <Map />
-      {/* <Vechicle /> */}
-    </main>
+    <>
+      <main>
+        <Driver />
+        <Map />
+        <Vehicle />
+        <Trip />
+      </main>
+    </>
   );
 };
 
