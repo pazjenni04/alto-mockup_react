@@ -21,8 +21,8 @@ const BottomNavbar = () => {
         alt="profileIcon"
         className="profile-icon align-items-start col d-inline fixed-bottom"
       />
-      <div className="col-10">
-        <div className="route-dropoff">{bottomNavContent}</div>
+      <div className="align-middle">
+        <div className="route-dropoff ">{bottomNavContent}</div>
       </div>
       <img
         src={vibes}
