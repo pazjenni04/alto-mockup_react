@@ -3,20 +3,19 @@
 /* trip-info section styling */
 
 .trip-container {
-  width: 68%;
+  /* width: 68%; */
   position: relative;
   margin: auto;
 }
 
 .trip-title {
-  font-family: "PxGrotesk-Regular";
-  font-size: 80px;
-  display: block;
-  align-items: baseline;
+  font-family: "PxGrotesk-Light";
+  font-size: 50px;
+  margin-bottom: 25px;
 }
 
 .trip-info {
-  margin-bottom: 150px;
+  margin-bottom: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +25,9 @@
   font-family: "PxGrotesk-Regular";
   color: var(--grey);
   font-size: 15px;
+  margin: 0;
+  padding: 0;
+  inline-size: 150px;
 }
 
 .trip-details {
@@ -36,4 +38,64 @@
 
 .arrival {
   font-family: "Optima-medium";
+  margin: 0;
+  padding: 0;
+  color: var(--brown);
+}
+
+.trip-btn {
+  width: 100%;
+  height: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: var(--offwhite);
+  border: var(--salmon);
+  background-color: var(--salmon);
+  letter-spacing: 2px;
+  margin-bottom: 65px;
+  font-family: "PxGrotesk-Regular";
+}
+
+.trip-container {
+  margin-bottom: 200px;
+}
+
+.dropoff-location-info {
+  font-family: "PxGrotesk-Regular";
+  color: var(--brown);
+}
+
+.pickup-location {
+  font-size: 17px;
+  color: var(--lightbrown);
+  font-family: "PxGrotesk-Regular";
+}
+
+.dest {
+  font-size: 17px;
+  font-family: "PxGrotesk-bold";
+  color: var(--brown);
+  margin: 0;
+  padding: 0;
+}
+
+.note {
+  margin-top: 25px;
+  font-size: 15px;
+  font-family: "PxGrotesk-Light";
+  display: inline;
+  position: relative;
+  inline-size: 250px;
+}
+
+.editIcon {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  width: 37px;
+  height: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 220px;
+  bottom: 140px;
+  z-index: 1px;
 }

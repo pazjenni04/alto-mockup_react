@@ -1,14 +1,14 @@
 import React from "react";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import BottomNavbar from "./components/bottomNavbar";
+import Logo from "./components/logo";
 import Main from "./pages/Main";
 
 function App() {
   return (
     <>
-      <Header />
+      <Logo />
       <Main />
-      <Footer />
+      <BottomNavbar />
     </>
   );
 }

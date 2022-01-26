@@ -7,16 +7,16 @@ const vehicleData = data.map((data) => {
       <h2 className="vehicle-license">{data.vehicle.license}</h2>
       <hr></hr>
       <div className="row">
-        <p className="col-6">
+        <div className="col-6">
           <span className="vehicle-subs">Make / Model</span>{" "}
           <div className="w-100"></div>
           <span className="vehicle-info">{data.vehicle.make}</span>
-        </p>
-        <p className="col-6">
+        </div>
+        <div className="col-6">
           <span className="vehicle-subs">Color</span>{" "}
           <div className="w-100"></div>
           <span className="vehicle-info">{data.vehicle.color}</span>
-        </p>
+        </div>
       </div>
     </div>
   );

@@ -1,13 +1,13 @@
 import { useState } from "react";
 import React from "react";
 import map from "../../assets/images/Map_overview.png";
-import vibeData from "./vibe-info";
-import dropffInfo from "./dropoff-info";
+import vibeData from "../vibeInfo";
+import dropffInfo from "./dropoffInfo";
 import "../styles/map.css";
 
 const Map = () => {
   // updates vibe for passanger
-  const [updateVibe, setUpdateVibe] = React.useState("");
+  const [updateVibe, setUpdateVibe] = React.useState(true);
 
   //sets vibe to Vaporwave Beats
   const currentVibe = () => {
@@ -17,10 +17,6 @@ const Map = () => {
   const newVibe = () => {
     setUpdateVibe("Sanctuary");
   };
-
-  // if(currentVibe){
-
-  // }
 
   return (
     <main className="container">

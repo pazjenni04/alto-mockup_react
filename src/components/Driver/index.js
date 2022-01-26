@@ -1,4 +1,5 @@
 import React from "react";
+import { useRef } from "react";
 import driverPhoto from "../../assets/images/Driver_photo.png";
 import driverData from "./driver-info";
 import "../styles/driver.css";

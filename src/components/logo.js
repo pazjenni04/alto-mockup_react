@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../../assets/images/Alto_logo.png";
-import "../styles/header.css";
+import logo from "../assets/images/Alto_logo.png";
+import "./styles/logo.css";
 
-const Header = () => {
+const Logo = () => {
   return (
     <header>
       <img src={logo} alt="Altologo" className="logo" />
@@ -10,4 +10,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Logo;
