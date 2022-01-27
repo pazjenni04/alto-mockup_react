@@ -6,15 +6,17 @@
   position: relative;
   margin: auto;
   margin-bottom: 100px;
+  justify-content: center;
 }
 
 .trip-title {
   font-family: "PxGrotesk-Light";
   font-size: 50px;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
   padding: 0 15px 0 0;
   margin-left: auto;
   margin-top: 0;
+  margin-left: 11px;
 }
 
 .trip-info {
@@ -34,31 +36,27 @@
   font-size: 15px;
   margin: 0;
   padding: 0;
-  inline-size: 150px;
+  inline-size: 115px;
 }
 
 .trip-details {
   font-family: "PxGrotesk-Regular";
   font-size: 13px;
   color: var(--brown);
+  justify-content: center;
 }
 
 .arrival-time {
   font-family: "PxGrotesk-Light";
   font-size: 80px;
   letter-spacing: 0;
-  margin: 0;
+  margin: 10px;
   padding: 0;
-  position: relative;
 }
 
 .drop-container {
   display: flex;
   position: relative;
-}
-
-.dropoff-info {
-  line-height: 55px;
 }
 
 .trip-btn {
@@ -80,6 +78,7 @@
 .dropoff-location-info {
   font-family: "PxGrotesk-Regular";
   color: var(--brown);
+  margin: 6px 13px 6px 15px;
   position: relative;
   display: block;
 }
@@ -88,14 +87,16 @@
   font-size: 17px;
   color: var(--lightbrown);
   font-family: "PxGrotesk-Regular";
+  margin: 6px 10px 3px 15px;
+  line-height: 18px;
 }
 
 .dest {
   font-size: 17px;
   font-family: "PxGrotesk-bold";
   color: var(--brown);
-  margin: 0;
-  padding: 0;
+  margin: 6px 10px 3px 15px;
+  line-height: 11px;
 }
 
 .note {
@@ -106,6 +107,7 @@
   position: relative;
   inline-size: 250px;
   margin-bottom: 10px;
+  margin-left: 15px;
 }
 
 .editIcon {
@@ -115,8 +117,8 @@
   height: 15px;
   display: inline-block;
   position: absolute;
-  left: 218px;
-  bottom: 83px;
+  left: 230px;
+  bottom: 76px;
   z-index: 1px;
 }
 
@@ -148,6 +150,11 @@
 
   .arrival-time {
     font-size: 75px;
+    line-height: 20px;
+  }
+
+  .dropoff-info {
+    line-height: 90px;
   }
 }
 
@@ -166,8 +173,18 @@
   }
 
   .editIcon {
-    left: 205px;
+    left: 220px;
     bottom: 75px;
+  }
+
+  /* .arrival-time {
+    font-size: 75px;
+    line-height: 20px;
+  } */
+
+  .dropoff-info {
+    font-size: 14px;
+    line-height: 90px;
   }
 }
 
@@ -187,7 +204,7 @@
   }
 
   .dropoff-location-info {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .arrival-time {
@@ -209,6 +226,7 @@
 
   .arrival-time {
     font-size: 60px;
+    line-height: 72px;
   }
 
   .pickup-location {
@@ -216,7 +234,7 @@
   }
 
   .dropoff-info {
-    line-height: 35px;
+    margin-bottom: 20px;
   }
 }
 
