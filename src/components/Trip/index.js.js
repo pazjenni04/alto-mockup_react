@@ -6,7 +6,7 @@ import pickupData from "./pickupDetails";
 import tripData from "./tripDetails";
 import editIcon from "../../assets/images/Edit_icon.png";
 
-// renders the trip information in the app section - displays customer's dropoff info, their trip data (locatin, time of arrival), and pick up information
+// renders the trip information in the app section - displays customer's dropoff info, their trip data (location, time of arrival), and pick up information
 const Trip = () => {
   return (
     <main className="container trip-container mx-auto justify-content-center">

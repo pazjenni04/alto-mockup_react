@@ -1,7 +1,7 @@
 import React from "react";
 import data from "../../assets/data/mission.json";
 
-// mapping through json file and rendering vehicle section data info - vehicle number, make/model, and vehicle color
+// maps through json file and renders vehicle section data info - vehicle number, make/model, and vehicle color
 const vehicleData = data.map((data) => {
   return (
     <div key={data.vehicle} className="justify-content-center">

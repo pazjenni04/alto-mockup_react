@@ -1,7 +1,7 @@
 import React from "react";
 import data from "../../assets/data/mission.json";
 
-// maps through json array and renders the dropoff location name and time of arrival
+// maps through json array and renders the driver's name and bio
 const driverData = data.map((data) => {
   return (
     <div key={data.driver} className="container driver-info">
