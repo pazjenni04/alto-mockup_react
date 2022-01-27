@@ -1,16 +1,9 @@
 import React from "react";
-import { useEffect, useState } from "react";
 import data from "../../assets/data/mission.json";
 import infoIcon from "../../assets/images/Info_icon.png";
 
 // maps through the trip data info - renders the max/min of trip fare, the amt of passengers can seat, and the payment type
 const tripData = data.map((data) => {
-  // function setToString(number) {
-  //   let str = number.setToString();
-  //   console.log(typeof str);
-  //   console.log("this works");
-  // }
-
   return (
     <div className="row trip-info" key={data.trip}>
       <div className="col-4 trip-fare">

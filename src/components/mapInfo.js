@@ -7,18 +7,18 @@ import mapIcon from "../assets/images/Map_icon.png";
 
 // renders the map section of the app - shows map and the current vibe for the customer
 const Map = () => {
-  // updates vibe for passanger
-  const [currentVibe, setCurrentVibe] = useState("Vaporwave");
+  // updates vibe for passenger
+  const [currentVibe, setCurrentVibe] = useState("Vaporwave Beats");
 
   //depending on what vibe customer is on, will update when button clicked
   const newVibe = (e) => {
     e.preventDefault();
     let vibe = "Sanctuary";
-    let vibe2 = "Vaporwave";
+    let vibe2 = "Vaporwave Beats";
 
-    if (currentVibe == "Vaporwave") {
+    if (currentVibe === "Vaporwave Beats") {
       return setCurrentVibe(vibe);
-    } else if (currentVibe !== "Vaporwave") {
+    } else if (currentVibe !== "Vaporwave Beats") {
       return setCurrentVibe(vibe2);
     }
   };

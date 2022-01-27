@@ -3,16 +3,18 @@
 ## **Table of Contents**
 
 1. [Description](#description)
-2. [Packages](#packages)
-3. [Questions](#questions)
-4. [Link](#links)
-5. [License](#license)
+2. [How it's Built](#how-it's-built)
+3. [Running the Application](#running_the_application)
+4. [Usage](#usage)
+5. [Questions](#questions)
+6. [Link](#link)
+7. [License](#license)
 
 ## **Description**
 
-The objective of this application is to create a mock-user experience for the Alto Rideshare app.
+The objective of this application is to create a mock-up of the Alto Rideshare application to simulate the user's experience.
 
-## **Packages**
+## **How it's Built**
 
 The following packages were used to build the application and assist with the user experience:
 
@@ -23,7 +25,9 @@ The following packages were used to build the application and assist with the us
 - React-moment
 - React-scripts
 
-## **Usage**
+This application was built for a mobile-device and will respond to different dimensions of the page to also accomodate other smart devices.
+
+## **Running the Application**
 
 To run this application, proceed with cloning the following git repository
 
@@ -41,6 +45,12 @@ npm install
 //Run the app on local server
 npm run start
 ```
+
+## **Usage**
+
+As the user scrolls down the application, they will come across different content displayed including the customer's assigned driver, their map and vibe station, their assigned vehicle, and the details of their trip. A mock-action with two preset stations was implemented to update the vibe station by clicking on the "Change Vehicle Vibe" button. See below for the mobile demo -
+
+![The following demo is an example of the mobile app view](public\images\demo-mobile.gif)
 
 ## **Questions**
 
