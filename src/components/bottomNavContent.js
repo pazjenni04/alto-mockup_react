@@ -2,7 +2,7 @@ import React from "react";
 import data from "../assets/data/mission.json";
 import Moment from "react-moment";
 
-// loops through json array and renders the dropoff location name and time of arrival
+// maps through json array and renders the dropoff location name and time of arrival
 const destinationData = data.map((data) => {
   return (
     <div className="navbar navbar-fixed-bottom" key={data.trip}>

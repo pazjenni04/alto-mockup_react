@@ -3,6 +3,7 @@ import vehiclePhoto from "../../assets/images/Vehicle_photo.png";
 import vehicleData from "./vehicle-info";
 import "../styles/vehicle.css";
 
+// renders the vehicle section of the application - imports the photo of the vehicle, make/model of vehicle, vehicle license, color
 const Vehicle = () => {
   return (
     <main className="container">

@@ -3,22 +3,29 @@
 /* trip-info section styling */
 
 .trip-container {
-  /* width: 68%; */
   position: relative;
   margin: auto;
+  margin-bottom: 100px;
 }
 
 .trip-title {
   font-family: "PxGrotesk-Light";
   font-size: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
+  padding: 0 15px 0 0;
+  margin-left: auto;
+  margin-top: 0;
 }
 
 .trip-info {
-  margin-bottom: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 35px;
+  position: relative;
+  display: inline-flex;
+}
+
+.top-line {
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .trip-sub {
@@ -32,37 +39,49 @@
 
 .trip-details {
   font-family: "PxGrotesk-Regular";
-  font-size: 15px;
-  color: var(--offblack);
+  font-size: 13px;
+  color: var(--brown);
 }
 
-.arrival {
-  font-family: "Optima-medium";
+.arrival-time {
+  font-family: "PxGrotesk-Light";
+  font-size: 80px;
+  letter-spacing: 0;
   margin: 0;
   padding: 0;
-  color: var(--brown);
+  position: relative;
+}
+
+.drop-container {
+  display: flex;
+  position: relative;
+}
+
+.dropoff-info {
+  line-height: 55px;
 }
 
 .trip-btn {
   width: 100%;
-  height: 40px;
+  height: 45px;
   text-transform: uppercase;
   cursor: pointer;
-  color: var(--offwhite);
-  border: var(--salmon);
-  background-color: var(--salmon);
+  color: var(--lightgrey);
+  border: 1px solid var(--lightgrey);
+  background-color: var(--offwhite);
   letter-spacing: 2px;
-  margin-bottom: 65px;
   font-family: "PxGrotesk-Regular";
 }
 
-.trip-container {
-  margin-bottom: 200px;
+.container {
+  justify-content: center;
 }
 
 .dropoff-location-info {
   font-family: "PxGrotesk-Regular";
   color: var(--brown);
+  position: relative;
+  display: block;
 }
 
 .pickup-location {
@@ -86,6 +105,7 @@
   display: inline;
   position: relative;
   inline-size: 250px;
+  margin-bottom: 10px;
 }
 
 .editIcon {
@@ -95,7 +115,114 @@
   height: 15px;
   display: inline-block;
   position: absolute;
-  left: 220px;
-  bottom: 140px;
+  left: 218px;
+  bottom: 83px;
   z-index: 1px;
+}
+
+.info-icon {
+  image-rendering: crisp-edges;
+  display: inline-block;
+  position: absolute;
+  left: 113px;
+  bottom: 17px;
+  z-index: 1px;
+}
+
+.trip-fare {
+  position: relative;
+}
+
+/* vibe styling */
+
+.vibe-name {
+  font-family: "PxGrotesk-Bold";
+}
+
+/* media queiries for trip scope */
+
+@media (max-width: 550px) {
+  .trip-title {
+    font-size: 40px;
+  }
+
+  .arrival-time {
+    font-size: 75px;
+  }
+}
+
+/* contents adjusted when reaches 410px */
+@media (max-width: 410px) {
+  .arrival-time {
+    font-size: 70px;
+  }
+
+  .trip-title {
+    font-size: 35px;
+  }
+
+  .dest {
+    font-size: 15px;
+  }
+
+  .editIcon {
+    left: 205px;
+    bottom: 75px;
+  }
+}
+
+/* contents adjusted when reaches 380px */
+@media (max-width: 380px) {
+  .trip-sub {
+    font-size: 13px;
+  }
+
+  .trip-details {
+    font-size: 13px;
+    margin: auto;
+  }
+
+  .info-icon {
+    left: 90px;
+  }
+
+  .dropoff-location-info {
+    font-size: 14px;
+  }
+
+  .arrival-time {
+    font-size: 65px;
+  }
+
+  .note {
+    font-size: 14px;
+    inline-size: 220px;
+  }
+}
+
+/* contents adjusted when reaches 375px */
+@media (max-width: 375px) {
+  .info-icon {
+    left: 100px;
+    bottom: 0;
+  }
+
+  .arrival-time {
+    font-size: 60px;
+  }
+
+  .pickup-location {
+    font-size: 15px;
+  }
+
+  .dropoff-info {
+    line-height: 35px;
+  }
+}
+
+/* contents adjusted when reaches 280px - galaxy fold */
+@media (max-width: 280px) {
+  .dropoff-location-info {
+    font-size: 12px;
+  }
 }

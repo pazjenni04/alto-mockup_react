@@ -1,39 +1,26 @@
 @import "./variable.css";
 
+/* bottom nav section styling */
+
 .profile-icon {
-  /* position: fixed;
-  bottom: 10px;
-  left: 250px;
-  display: inline-block;
-  z-index: 1; */
   width: 32px;
   height: 32px;
   cursor: pointer;
   display: flex;
   position: fixed;
+  bottom: 10px;
+  margin: 15px;
 }
 
 .vibesIcon {
-  /* position: fixed;
+  position: relative;
   bottom: 10px;
-  display: inline-block;
-  left: 1400px; */
   width: 32px;
   height: 32px;
   cursor: pointer;
   display: flex;
-  position: relative;
+  margin: 15px;
 }
-
-/* .route-dropoff {
-  bottom: 0;
-  display: inline;
-  position: fixed;
-  left: 40%;
-  max-width: 400px;
-  z-index: 1;
-  font-size: 15px;
-} */
 
 .dropoff-location {
   font-weight: 600;
@@ -42,6 +29,9 @@
   z-index: 1;
   inline-size: 260px;
   display: flex;
+  position: fixed;
+  bottom: 40px;
+  left: 40%;
 }
 
 .eta {
@@ -50,10 +40,71 @@
   inline-size: 100px;
   text-align: center;
   display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 45%;
 }
 
 .nav-container {
   background-color: var(--tan);
   border-top: var(--lightgrey);
   z-index: 2px;
+  margin: 0;
+  padding: 0;
+}
+
+/* media queries for different screen sizes for bottome nav scope */
+
+/* contents re-adjust when screen size hits 822px */
+@media (max-width: 830px) {
+  .dropoff-location {
+    left: 32%;
+  }
+
+  .eta {
+    left: 40%;
+  }
+}
+
+/* contents re-adjust when screen size hits 550px */
+@media (max-width: 550px) {
+  .dropoff-location {
+    left: 25%;
+  }
+}
+
+/* contents re-adjust when screen size hits 432px */
+@media (max-width: 432px) {
+  .dropoff-location {
+    left: 22%;
+    font-size: 17px;
+  }
+
+  .eta {
+    font-size: 16px;
+  }
+
+  .profile-icon {
+    width: 27px;
+    height: 27px;
+  }
+
+  .vibesIcon {
+    width: 27px;
+    height: 27px;
+  }
+}
+
+/* contents re-adjust when screen size hits 375px */
+@media (max-width: 375px) {
+  .dropoff-location {
+    font-weight: 500;
+    font-size: 15px;
+    left: 24%;
+    margin-bottom: 0;
+  }
+
+  .eta {
+    font-size: 14px;
+  }
 }

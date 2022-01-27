@@ -4,7 +4,9 @@ import map from "../../assets/images/Map_overview.png";
 import vibeData from "../vibeInfo";
 import dropffInfo from "./dropoffInfo";
 import "../styles/map.css";
+import mapIcon from "../../assets/images/Map_icon.png";
 
+// renders the map section of the app - shows map and the current vibe for the customer
 const Map = () => {
   // updates vibe for passanger
   const [updateVibe, setUpdateVibe] = React.useState(true);
@@ -25,6 +27,7 @@ const Map = () => {
         alt="Map-overview"
         className="img-fluid mx-auto d-block map"
       />
+      <img src={mapIcon} alt="map-icon" className="map-icon" />
       <h1 className="map-title">Your Trip</h1>
       <div className="eta-map">{dropffInfo} </div>
       <hr></hr>
@@ -33,7 +36,6 @@ const Map = () => {
       <button onClick={(e) => newVibe} className="vibe-btn">
         Change Vehicle Vibe
       </button>
-      <hr></hr>
     </main>
   );
 };

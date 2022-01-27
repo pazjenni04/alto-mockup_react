@@ -44,3 +44,9 @@
   font-family: "PxGrotesk-Light";
   src: url("../../assets/fonts/PxGrotesk-Light.otf");
 }
+
+/* italicized font */
+@font-face {
+  font-family: "PxGrotesk-Regularta";
+  src: url("../../assets/fonts/PxGrotesk-RegularIta.otf");
+}

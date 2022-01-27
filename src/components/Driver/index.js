@@ -5,18 +5,14 @@ import driverData from "./driver-info";
 import "../styles/driver.css";
 import "../styles/font.css";
 
+// renders driver section of application - driver photo, title and imports data (driver name and bio)
 const Driver = () => {
   return (
-    <main className="container">
-      <img
-        src={driverPhoto}
-        alt="Driver"
-        className="img-fluid rounded mx-auto d-block driver-pic"
-      />
+    <main className="container justify-content-center">
+      <img src={driverPhoto} alt="Driver" className="rounded driver-pic" />
       <h1 className="driver-title">Your Driver</h1>
       <div className="driver-info">{driverData}</div>
       <button className="driver-btn">Contact Driver</button>
-      <hr></hr>
     </main>
   );
 };

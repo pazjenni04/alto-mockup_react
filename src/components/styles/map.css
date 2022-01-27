@@ -10,15 +10,15 @@
 .map {
   margin-top: 15px;
   margin-bottom: 15px;
+  image-rendering: auto;
 }
 
 .map-title {
   text-transform: uppercase;
-  font-size: 17px;
-  font-family: "Optima-medium";
+  font-size: 14px;
+  font-family: "PxGrotesk-Bold";
   color: var(--salmon);
-  display: block;
-  align-items: baseline;
+  letter-spacing: 2px;
 }
 
 .eta-map {
@@ -29,11 +29,11 @@
 
 .vibe-btn {
   width: 100%;
-  height: 40px;
+  height: 45px;
   text-transform: uppercase;
   cursor: pointer;
   color: var(--offwhite);
-  border: var(--salmon);
+  border: 1px solid var(--salmon);
   background-color: var(--salmon);
   letter-spacing: 2px;
   margin-bottom: 65px;
@@ -43,13 +43,32 @@
 .arrival {
   font-family: "PxGrotesk-Light";
   font-size: 80px;
+  line-height: 72px;
 }
 
 .vibe-title {
-  font-size: 15px;
+  font-size: 12px;
   font-family: "PxGrotesk-Light";
+  margin: 0;
 }
 
 .vibe {
   font-family: "PxGrotesk-Regular";
+  font-size: 13px;
+}
+
+.map-icon {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  position: relative;
+  display: inline;
+  bottom: 75px;
+  z-index: 1px;
+  float: right;
+}
+
+@media (max-width: 375px) {
+  .map-title {
+    font-size: 11px;
+  }
 }

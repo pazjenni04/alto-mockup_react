@@ -4,16 +4,19 @@
 
 .vehiclephoto {
   margin-top: 80px;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .vehicle-title {
   text-transform: uppercase;
-  font-size: 17px;
-  font-family: "Optima-medium";
+  font-size: 13px;
+  font-family: "PxGrotesk-Bold";
   color: var(--salmon);
   display: block;
   align-items: baseline;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  padding: 0 20px 0 0;
 }
 
 .vehicle-license {
@@ -23,12 +26,12 @@
 
 .vehicle-btn {
   width: 100%;
-  height: 40px;
+  height: 45px;
   text-transform: uppercase;
   cursor: pointer;
-  color: var(--salmon);
-  border: var(--salmon);
-  background-color: var(--lightgrey);
+  color: var(--lightgrey);
+  border: 1px solid var(--lightgrey);
+  background-color: var(--offwhite);
   letter-spacing: 2px;
   font-family: "PxGrotesk-Regular";
   margin-bottom: 150px;
@@ -36,10 +39,11 @@
 }
 
 .vehicle-subs {
-  font-size: 15px;
+  font-size: 13px;
   font-family: "PxGrotesk-Light";
 }
 
 .vehicle-info {
-  font-family: "PxGrotesk-Regular";
+  font-size: 13px;
+  font-family: "PxGrotesk-Bold";
 }

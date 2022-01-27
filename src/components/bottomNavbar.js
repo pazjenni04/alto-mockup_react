@@ -5,15 +5,8 @@ import vibes from "../assets/images/Vibes_icon.png";
 import bottomNavContent from "./bottomNavContent";
 import "./styles/bottomNavbar.css";
 
+// bottom nav of page - renders icons, location and time
 const BottomNavbar = () => {
-  // const [dropoff, setDropoff] = React.useState("");
-  // const [arrival, setArrival] = useState("");
-
-  // useEffect(() => {
-  //   if()
-
-  // })
-
   return (
     <div className="fixed-bottom nav-container">
       <img
@@ -22,7 +15,7 @@ const BottomNavbar = () => {
         className="profile-icon align-items-start col d-inline fixed-bottom"
       />
       <div className="align-middle">
-        <div className="route-dropoff ">{bottomNavContent}</div>
+        <div className="route-dropoff">{bottomNavContent}</div>
       </div>
       <img
         src={vibes}

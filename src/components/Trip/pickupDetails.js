@@ -1,7 +1,7 @@
 import React from "react";
 import data from "../../assets/data/mission.json";
 
-// loops through json array and renders the pickup location information
+// maps through json array and renders the pickup location information
 const pickupData = data.map((data) => {
   return (
     <div key={data.trip} className="pickup-info">
@@ -14,7 +14,7 @@ const pickupData = data.map((data) => {
         {data.trip.pickup_location.zipcode}
       </p>
 
-      <hr className="w-25"></hr>
+      <hr className="w-25 between-line"></hr>
     </div>
   );
 });
