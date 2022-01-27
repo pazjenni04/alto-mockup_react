@@ -50,7 +50,7 @@ npm run start
 
 As the user scrolls down the application, they will come across different content displayed including the customer's assigned driver, their map and vibe station, their assigned vehicle, and the details of their trip. A mock-action with two preset stations was implemented to update the vibe station by clicking on the "Change Vehicle Vibe" button. See below for the mobile demo -
 
-![The following demo is an example of the mobile app view](public\images\demo-mobile.gif)
+![The following demo is an example of the mobile app view](https://raw.githubusercontent.com/pazjenni04/alto-mockup_react/main/public/images/demo-mobile.gif)
 
 ## **Questions**
 
