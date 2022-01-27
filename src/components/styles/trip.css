@@ -41,7 +41,7 @@
 
 .trip-details {
   font-family: "PxGrotesk-Regular";
-  font-size: 13px;
+  font-size: 15px;
   color: var(--brown);
   justify-content: center;
 }
@@ -126,7 +126,7 @@
   image-rendering: crisp-edges;
   display: inline-block;
   position: absolute;
-  left: 113px;
+  left: 97px;
   bottom: 17px;
   z-index: 1px;
 }
@@ -177,11 +177,6 @@
     bottom: 75px;
   }
 
-  /* .arrival-time {
-    font-size: 75px;
-    line-height: 20px;
-  } */
-
   .dropoff-info {
     font-size: 14px;
     line-height: 90px;
@@ -220,7 +215,7 @@
 /* contents adjusted when reaches 375px */
 @media (max-width: 375px) {
   .info-icon {
-    left: 100px;
+    left: 90px;
     bottom: 0;
   }
 

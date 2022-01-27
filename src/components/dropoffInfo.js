@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../../assets/data/mission.json";
+import data from "../assets/data/mission.json";
 import Moment from "react-moment";
 
 // maps through json array and renders the dropoff location name and the time of arrival

@@ -1,5 +1,5 @@
 import React from "react";
-import dropffInfo from "../Map/dropoffInfo";
+import dropffInfo from "../dropoffInfo";
 import "../styles/trip.css";
 import notesData from "./notes";
 import pickupData from "./pickupDetails";

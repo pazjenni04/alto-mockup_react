@@ -37,12 +37,14 @@
   background-color: var(--salmon);
   letter-spacing: 2px;
   margin-bottom: 65px;
+  margin-top: 30px;
   font-family: "PxGrotesk-Regular";
 }
 
 .arrival {
   font-family: "PxGrotesk-Light";
   font-size: 80px;
+  line-height: 92px;
 }
 
 .arrival-time {

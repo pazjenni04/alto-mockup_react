@@ -11,7 +11,7 @@ const destinationData = data.map((data) => {
       </div>
       <div className="w-100"></div>
       <p className="eta mx-auto">
-        ETA: <Moment format="h:mm a">{data.trip.estimated_arrival}</Moment>
+        <Moment format="h:mm a">{data.trip.estimated_arrival}</Moment>
       </p>
     </div>
   );
