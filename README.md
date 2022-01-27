@@ -3,8 +3,8 @@
 ## **Table of Contents**
 
 1. [Description](#description)
-2. [How it's Built](#how-it's-built)
-3. [Running the Application](#running_the_application)
+2. [How it's Built](#how-its-built)
+3. [Running the Application](#running-the-application)
 4. [Usage](#usage)
 5. [Questions](#questions)
 6. [Link](#link)
